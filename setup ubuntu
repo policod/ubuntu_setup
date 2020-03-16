@@ -1,0 +1,18 @@
+ubunbu - first thing to do:
+	1. Mozc :japanese typing
+	sudo apt-get -y install ibus-mozc
+	--> logout
+	setting --> Region & Language --> Japan & vietnamese.
+	
+	2. application install:
+	cd --> file
+	sudo apt install ./ocenaudio_debian8_64_3.7.11.deb
+
+	3. App: Tele
+	anki: edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap
+	libre
+	ocenaudio
+	GNOME - tweak
+	setup thunderbird
+	chrome, blender, libcad
+	
