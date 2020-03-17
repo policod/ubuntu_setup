@@ -5,17 +5,25 @@ ubunbu - first thing to do:
 	setting --> Region & Language --> Japan & vietnamese.
 	
 	2. application install:
-	cd --> file
-	sudo apt install ./ocenaudio_debian8_64_3.7.11.deb
+	
+	Ocenaudio:
+	sudo apt-get install gdebi -y
+	download file from offical website
+	cd --> file downloaded
+	sudo gdebi file_name
 
 	3. Anki install
 	anki addon:
 		Review heatmaps: download https://github.com/glutanimate/review-heatmap/releases/tag/v0.7.0-beta.1     ------>  review-heatmap-v0.7.0-beta.1-anki21.ankiaddon
 			add-on from file
-			 
 	
-	3. App: Tele
-	anki: edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap
+edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap		 
+	
+	4. App: Tele
+	? problem: Doublicate icon in laucher menu: ~./local/share/applications/
+	remove telegramdesktop.desktop
+
+	5. Other app
 	libre
 	ocenaudio
 	GNOME - tweak
