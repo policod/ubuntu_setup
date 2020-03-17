@@ -4,7 +4,10 @@ ubunbu - first thing to do:
 	--> logout
 	setting --> Region & Language --> Japan & vietnamese.
 	
-	2. application install:
+	2. Turn off lock keying:
+		open passworlds and key --> login --> change passworld ---> typing old passwd --> don't type new passwd --> change passwd
+	
+	3. application install:
 	
 	Ocenaudio:
 	sudo apt-get install gdebi -y
@@ -12,14 +15,18 @@ ubunbu - first thing to do:
 	cd --> file downloaded
 	sudo gdebi file_name
 
-	3. Anki install
+	4. Anki install
 	anki addon:
 		Review heatmaps: download https://github.com/glutanimate/review-heatmap/releases/tag/v0.7.0-beta.1     ------>  review-heatmap-v0.7.0-beta.1-anki21.ankiaddon
 			add-on from file
 	
+	problem: "sound and video card ...." anki card can't play audio
+		--> install mplayer: sudo apt-get install mplayer
+		
+
 edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap		 
 	
-	4. App: Tele
+	5. App: Tele
 	? problem: Doublicate icon in laucher menu: ~./local/share/applications/
 	remove telegramdesktop.desktop
 
@@ -29,4 +36,4 @@ edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap
 	GNOME - tweak
 	setup thunderbird
 	chrome, blender, libcad
-	
+
