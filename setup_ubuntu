@@ -36,4 +36,7 @@ edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap
 	GNOME - tweak
 	setup thunderbird
 	chrome, blender, libcad
-
+	
+	6. How install package abc.deb
+	--> cd ~/to file
+	--> sudo dpkg -i abc.deb
