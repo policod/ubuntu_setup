@@ -40,3 +40,9 @@ edit audio, japanese support, kanji colorier, not Forvo audio, review heatmap
 	6. How install package abc.deb
 	--> cd ~/to file
 	--> sudo dpkg -i abc.deb
+	
+	7. How unpackage abc.tar.xz ---> for arduino package
+	sudo tar -xf abc.tar.xz
+	cd package
+	sudo ./install.sh
+	
